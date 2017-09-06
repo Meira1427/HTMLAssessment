@@ -2,9 +2,130 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <style>
+        p, blockquote {
+            font-family: Tahoma, Geneva, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid lightgray;
+        }
+        form {
+            line-height: 1.7em;
+        }
+        </style>
         <title></title>
     </head>
     <body>
-
+        <h2>TEXT</h2>
+        <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Cappuccino barista robusta, sugar, aromatic aroma froth french press americano sweet beans. </p>
+        <p><em><blockquote><strong>Espresso</strong>, irish french press con panna affogato steamed. Mug, a, medium froth single origin carajillo dark iced cup aftertaste. Acerbic shop macchiato siphon pumpkin spice mazagran espress. Chicory siphon est café au lait grinder, so chicory extra skinny flavour milk that. Sweet robusta filter crema lungo skinny shop. Barista, foam robusta aged, flavour robust roast extraction and cream. Froth robust viennese turkish, dripper spoon macchiato cup et trifecta single origin.</blockquote></em></p>
+        <p><strong>Mocha</strong> bar, caramelization, spoon, grounds, seasonal flavour aged a crema cappuccino. Id con panna, that black affogato sit instant. Barista foam extraction, in skinny single origin french press arabica. Blue mountain con panna cultivar grounds rich saucer, in, variety that ut dark mazagran. In dark froth irish doppio a skinny qui rich. Iced latte, cultivar, ristretto americano variety galão flavour single origin.</p>
+        <p>
+        <br>
+        <h2>TABLE</h2>
+        <table>
+            <tr>
+                <td colspan=6><center>Scores by Quarter</center></td>
+            </tr>
+            <tr>
+                <th rowspan=2>Team Name</th>
+                <th colspan=2>First Half</th>
+                <th colspan=2>Second Half</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Q1</th>
+                <th>Q2</th>
+                <th>Q3</th>
+                <th>Q4</th>
+                <th>Final</th>
+            </tr>
+            <tr>
+                <td>Denver</td>
+                <td>7</td>
+                <td>3</td>
+                <td>0</td>
+                <td>7</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Chicago</td>
+                <td>0</td>
+                <td>6</td>
+                <td>3</td>
+                <td>6</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>7</strong></td>
+                <td><strong>9</strong></td>
+                <td><strong>3</strong></td>
+                <td><strong>13</strong></td>
+                <td><strong>32</strong></td>
+            </tr>
+        </table>
+        <br>
+        <h2>LIST</h2>
+        <ul>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/1280px-Denver_Broncos_logo.svg.png" alt="Bronco Logo" width="70" height="40.6875">
+            <li><a href="http://www.denverbroncos.com/" target="_blank">Denver Broncos</a>
+                <ul>
+                    <li>Coach: Vance Joseph</li>
+                    <li>QB
+                        <ol>
+                            <li>Trevor Siemian</li>
+                            <li>Paxton Lynch</li>
+                        </ol>
+                    </li>
+                </ul>
+            <br>
+            </li>
+            <img src="http://1000logos.net/wp-content/uploads/2016/11/Chicago-Bears-Logo.png" alt="Bears Logo" width="70" height="47.47826">
+            <li><a href="http://www.chicagobears.com/" target="_blank">Chicago Bears</a>
+                <ul>
+                    <li>Coach: John Fox</li>
+                    <li>QB
+                        <ol>
+                            <li>Jay Cutler</li>
+                            <li>Brian Hoyer </li>
+                            <li>Matt Barkley</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <h2>FORM</h2>
+        <form>
+            First: <input type="text" name="firstname"></input>
+            Last: <input type="text" name="lastname"></inpu>
+            <br>
+            Favorite Sport:
+            <select style="background-color:thistle">
+                <option name="sport" value="football">Football</option>
+                <option name="sport" value="baseball">Baseball</option>
+                <option name="sport" value="soccer">Soccer</option>
+                <option name="sport" value="basketball">Basketball</option>
+            </select>
+            <br>
+            Pets I Have:
+            <input type="checkbox" name="pets" value="dog">Dog</input>
+            <input type="checkbox" name="pets" value="cat">Cat</input>
+            <input type="checkbox" name="pets" value="horse">Horse</input>
+            <input type="checkbox" name="pets" value="turtle">Turtle</input>
+            <input type="checkbox" name="pets" value="rabbit">Rabbit</input>
+            <br>
+            My House:
+            <input type = "radio" name="house" value="gryffindor">Gryffindor</input>
+            <input type = "radio" name="house" value="ravenclaw">Ravenclaw</input>
+            <input type = "radio" name="house" value="hufflepuff">Hufflepuff</input>
+            <input type = "radio" name="house" value="slytherin">Slytherin</input>
+            <br>
+            <input type="submit" value="Submit Query" style="background-color:thistle">
+        </form>
     </body>
 </html>
